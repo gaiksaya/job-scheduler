@@ -1,9 +1,5 @@
 name: Upload SPI Jar to Maven
 
-on:
-  push:
-    tags: 
-      - v*
 jobs:
   upload-job-scheduler-jar:
     runs-on: [ubuntu-16.04]
